@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Traffic Flow</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo-container">
+            <img src="map.png" alt="Image" class="logo-image">
+            <a href="#" class="logo">TRAFFIC FLOW</a>
+        </div>
+        <nav class="navbar">
+            <a href="home.html" class="nav-link">Home</a>
+            <a href="map.html" class="nav-link">Map</a>
+            <a href="report.html" class="nav-link">Report</a>
+            <a href="news.html" class="nav-link">News</a>
+        </nav>
+    </header>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const navbarLinks = document.querySelectorAll(".nav-link");
+
+            navbarLinks.forEach(function (link) {
+                if (link.href === window.location.href) {
+                    link.classList.add("active");
+                }
+            });
+        });
+    </script>
+
+<section class="news" id="news">
+    <div class="news-content">
+        <h1>Traffic News</h1>
+        <br>
+    </div>
+    <div class="cardnews">
+        <img src="kemacetan.jpg" alt="News Image" class="card-imagenews">
+        <div class="textp">
+            <h1>Senin, 4 September 2023 08:00 WIB</h1>
+            <h2>Kemacetan Parah di Jalan Utama Kota, Pengendara Terjebak dalam Lalu Lintas yang Padat</h2>
+            <br>
+            <h3>Kemacetan lalu lintas yang parah melumpuhkan jalan-jalan utama kota ini, menyebabkan penundaan signifikan dalam perjalanan.</h3>
+            <a href="kemacetan.html" target="_blank"><p>Baca Selengkapnya >></p></a>
+        </div>
+    </div>
+    <br>
+    <div class="cardnews">
+        <img src="https://droneforbeginners.com/wp-content/uploads/2021/12/gps-or-google-maps-768x512.jpeg" alt="News Image" class="card-imagenews">
+        <div class="textp">
+            <h1>Selasa, 5 September 2023 09.30 WIB</h1>
+            <h2>Kerusakan Parah Jalan Raya A5, Pengendara Disarankan Rute Alternatif</h2>
+            <br>
+            <h3>Kerusakan serius pada Jalan Raya A5 telah memicu kemacetan berjam-jam. Otoritas lalu lintas mengimbau pengemudi untuk mencari rute alternatif hingga perbaikan selesai.</h3>
+            <a href="kerusakan.html" target="_blank"><p>Baca Selengkapnya >></p></a>
+        </div>
+    </div>
+    <br>
+    <div class="cardnews">
+        <img src="https://xnews.id/wp-content/uploads/2022/04/Pemkab-Sidoarjo-Tambal-Sementara-Kerusakan-Parah-Jalan-Industri.jpg" alt="News Image" class="card-imagenews">
+        <div class="textp">
+            <h1>Rabu, 6 September 2023 13:15 WIB</h1>
+            <h2>Kecelakaan di Tol, Menyebabkan Arus Lalu Lintas Menjadi Macet</h2>
+            <br>
+            <h3>Kecelakaan hebat di Tol  utama kota telah mengakibatkan arus lalu lintas menjadi macet. Pihak berwenang sedang berusaha membersihkan puing-puing dan mengarahkan lalu lintas.</h3>
+            <a href="kecelakaan.html" target="_blank"><p>Baca Selengkapnya >></p></a>
+        </div>
+    </div>
+    <br>
+    <div class="cardnews">
+        <img src="https://th.bing.com/th/id/OIP.i29llxDT1-I8pw1WBGlkqgAAAA?pid=ImgDet&rs=1" alt="News Image" class="card-imagenews">
+        <div class="textp">
+            <h1>Kamis, 7 September 2023 10:00 WIB</h1>
+            <h2>Sistem Navigasi Terbaru untuk Hindari Kemacetan</h2>
+            <br>
+            <h3>Dapatkan informasi terbaru tentang teknologi navigasi terkini yang membantu pengemudi menghindari kemacetan dan memilih rute tercepat.</h3>
+            <a href="navigasi.html" target="_blank"><p>Baca Selengkapnya >></p></a>
+        </div>
+    </div>
+    <br>
+    <div class="cardnews">
+        <img src="https://th.bing.com/th/id/R.471708469fd587d98e708db128e170f5?rik=dt6HIb940GqYQA&riu=http%3a%2f%2fabouttng.com%2fwp-content%2fuploads%2f2020%2f02%2fd5c3e882-0664-459d-be2e-85b31fdd3c03_169.jpeg&ehk=oGHdpxNTQ%2bqCTIt5aT9JAwvAmMzIUuI9i13VxEdotuQ%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" alt="News Image" class="card-imagenews">
+        <div class="textp">
+            <h1>Jumat, 8 September 2023 08:45 WIB</h1>
+            <h2>Tips Aman Berkendara di Musim Hujan dan Jalan Berlubang</h2>
+            <br>
+            <h3>Musim hujan telah tiba, dan kami memberikan tips penting untuk berkendara aman di jalan yang licin dan berlubang.</h3>
+            <a href="tips.html" target="_blank"><p>Baca Selengkapnya >></p></a>
+        </div>
+    </div>
+    <br>
+    <div class="circle-container">
+        <div class="circles">1</div>
+        <div class="circle">2</div>
+        <div class="circle">3</div>
+        <div class="circle">4</div>
+        <div class="circle">5</div>
+        <div class="circle">>></div>
+    </div>
+    <div class="footer-report">
+        <p>Email: helloflow@gmail.com</p>
+        <p>Gedung Jakarta Plaza, Lantai 4</p>
+        <p>Kawasan Bisnis Jakarta Selatan</p>
+        <p>Jakarta, Indonesia</p>
+        <img src="facebook.png" class="icon"></a>
+        <img src="instagram.png" class="icon"></a>
+        <img src="telegram.png" class="icon"></a>
+        <img src="twitter.png" class="icon"></a>
+        <img src="whatsapp.png" class="icon"></a>
+        <p>Terms of use</a> | <a>Privacy Environmental Policy</a></p>
+        <p>©2023 Traffic Flow. All Right Reserved.</p>
+    </div>
+</section>
+</body>
+</html>

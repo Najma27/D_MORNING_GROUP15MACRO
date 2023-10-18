@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Traffic Flow</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo-container">
+            <img src="map.png" alt="Image" class="logo-image">
+            <a href="#" class="logo">TRAFFIC FLOW</a>
+        </div>
+        <nav class="navbar">
+            <a href="home.html" class="nav-link">Home</a>
+            <a href="map.html" class="nav-link">Map</a>
+            <a href="report.html" class="nav-link">Report</a>
+            <a href="news.html" class="nav-link">News</a>
+        </nav>
+    </header>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const navbarLinks = document.querySelectorAll(".nav-link");
+
+            navbarLinks.forEach(function (link) {
+                if (link.href === window.location.href) {
+                    link.classList.add("active");
+                }
+            });
+        });
+    </script>
+
+<section class="news" id="news">
+    <div class="news-content">
+        <h1>Traffic News</h1>
+        <br>
+        <div class="contents">
+            <div class="textx">
+            <h1>Jumat, 8 September 2023 08:45 WIB</h1>
+            <h2>Tips Aman Berkendara di Musim Hujan dan Jalan Berlubang</h2>
+            <br>
+            <img src="https://droneforbeginners.com/wp-content/uploads/2021/12/gps-or-google-maps-768x512.jpeg" alt="Card Image" class="card-images">
+            <br>
+            <h3>saat hujan di jalan pastikan ban kendaraan Anda dalam kondisi baik dan memiliki alur yang cukup untuk menghadapi hujan. Ban yang aus dapat menyebabkan hilangnya traksi saat melintasi genangan air dan jalan berlubang</h3>
+            <br>
+            <h3>Ketika hujan turun dengan deras, pastikan Anda mengurangi kecepatan Anda. Kecepatan berlebih dalam kondisi basah dapat membuat kendaraan kehilangan traksi dan menjadi lebih sulit untuk menghindari bahaya di jalan
+            </h3>
+            <br>
+            <h3>Hindari mengemudi melalui genangan air dengan kecepatan tinggi. Air di genangan mungkin lebih dalam dari yang terlihat, dan masuk ke dalam genangan dengan kecepatan tinggi bisa menyebabkan akvaplaning, di mana kendaraan Anda kehilangan traksi.
+            </h3>
+            <br>
+            <h3> Jika Anda melihat jalan berlubang, cobalah untuk menghindarinya atau melambat secara drastis sebelum melewatinya. Jalan berlubang dapat merusak suspensi dan roda kendaraan Anda jika Anda melintasinya dengan terlalu cepat.</h3>
+            <br>
+            <h3>Akhirnya, pastikan lampu kendaraan Anda menyala saat hujan turun dengan deras. Ini akan membuat Anda lebih terlihat oleh pengemudi lain dan membantu mengurangi risiko kecelakaan.</h3>
+            <br>
+            <br>
+        </div>
+    </div>
+    <br><br><br><br>
+    <div class="footer-report">
+        <p>Email: helloflow@gmail.com</p>
+        <p>Gedung Jakarta Plaza, Lantai 4</p>
+        <p>Kawasan Bisnis Jakarta Selatan</p>
+        <p>Jakarta, Indonesia</p>
+        <img src="facebook.png" class="icon"></a>
+        <img src="instagram.png" class="icon"></a>
+        <img src="telegram.png" class="icon"></a>
+        <img src="twitter.png" class="icon"></a>
+        <img src="whatsapp.png" class="icon"></a>
+        <p>Terms of use</a> | <a>Privacy Environmental Policy</a></p>
+        <p>©2023 Traffic Flow. All Right Reserved.</p>
+    </div>
+</section>
+</body>
+</html>

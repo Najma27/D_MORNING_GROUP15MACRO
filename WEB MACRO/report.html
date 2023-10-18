@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Traffic Flow</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo-container">
+            <img src="map.png" alt="Image" class="logo-image">
+            <a href="#" class="logo">TRAFFIC FLOW</a>
+        </div>
+        <nav class="navbar">
+            <a href="home.html" class="nav-link">Home</a>
+            <a href="map.html" class="nav-link">Maps</a>
+            <a href="report.html" class="nav-link">Report</a>
+            <a href="news.html" class="nav-link">News</a>
+        </nav>
+    </header>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const navbarLinks = document.querySelectorAll(".nav-link");
+
+            navbarLinks.forEach(function (link) {
+                if (link.href === window.location.href) {
+                    link.classList.add("active");
+                }
+            });
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const buttons = document.querySelectorAll(".cti-buttons, .ctu-buttons, .cte-buttons, .cto-buttons");
+            const chatbox = document.getElementById("chatbox");
+            const closeButton = document.querySelector(".chatbox-header .close");
+
+        buttons.forEach(function (button) {
+        button.addEventListener("click", function () {
+            chatbox.style.display = "block";
+        });
+    });
+
+    closeButton.addEventListener("click", function () {
+        chatbox.style.display = "none";
+    });
+});
+
+    </script>
+
+    <section class="report" id="report">
+        <div class="report-content">
+            <h1>Report</h1>
+            <br>
+        </div>
+        <div class="cardreport">
+            <img src="pupr.png" alt="Card Image" class="card-imagereport">
+            <div class="texts">
+                <h4>PELAYANAN PUPR</h4>
+                <div class="textr">
+                    <h5>Laporan yang berkaitan dengan pembangunan infrastruktur, manajemen lingkungan, perumahan rakyat, dan sektor-sektor terkait lainnya.</h5>
+                </div>
+                <button class="cti-buttons">Coba Sekarang</button>
+            </div>
+        </div>
+        <br>
+        <div class="cardreport">
+            <img src="policeoffice.png" alt="Card Image" class="card-imagereport">
+            <div class="texts">
+                <h4>POLISI</h4>
+                <div class="textr">
+                    <h5>Laporan mengenai penegakan  undang-undang dan menjalankan tugas-tugas terkait keamanan seperti pengaturan lalu lintas, penanganan insiden kecelakaan, dan banyak lagi.</h5>
+                </div>
+                <button class="ctu-buttons">Coba Sekarang</button>
+            </div>
+        </div>
+        <br>
+        <div class="cardreport">
+            <img src="firetruck.png" alt="Card Image" class="card-imagereport">
+            <div class="texts">
+                <h4>PEMADAM KEBAKARAN</h4>
+                <div class="textr">
+                    <h5>Laporan mengenai  bahaya yang dialami masyarakat dan properti dari bahaya kebakaran.</h5>
+                </div>
+                <button class="cte-buttons">Coba Sekarang</button>
+            </div>
+        </div>
+        <br>
+        <div class="cardreport">
+            <img src="hospital.png" alt="Card Image" class="card-imagereport">
+            <div class="texts">
+                <h4>RUMAH SAKIT</h4>
+                <div class="textr">
+                    <h5>Laporan yang berkaitan denagan rumah sakit dan pertolongan terhadap koban kecelakaan.</h5>
+                </div>
+                <button class="cto-buttons">Coba Sekarang</button>
+            </div>
+        </div>
+
+        <div id="chatbox" class="chatbox">
+            <div class="chatbox-body">
+                <div class="message received">
+                    <div class="message-content">
+                        <p>Halo Selamat Datang, ada yang bisa kami bantu? </p>
+                        <span class="message-timestamp">10:00 AM</span>
+                    </div>
+                </div>
+                <div class="message sent">
+                    <div class="message-content">
+                        <p>Hi, Saya ingin melaporkan sesuatu</p>
+                        <span class="message-timestamp">10:01 AM</span>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+</body>
+</html>

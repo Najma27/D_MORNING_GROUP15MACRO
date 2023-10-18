@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Traffic Flow</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo-container">
+            <img src="map.png" alt="Image" class="logo-image">
+            <a href="#" class="logo">TRAFFIC FLOW</a>
+        </div>
+        <nav class="navbar">
+            <a href="home.html" class="nav-link">Home</a>
+            <a href="map.html" class="nav-link">Map</a>
+            <a href="report.html" class="nav-link">Report</a>
+            <a href="news.html" class="nav-link">News</a>
+        </nav>
+    </header>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const navbarLinks = document.querySelectorAll(".nav-link");
+
+            navbarLinks.forEach(function (link) {
+                if (link.href === window.location.href) {
+                    link.classList.add("active");
+                }
+            });
+        });
+    </script>
+
+<section class="news" id="news">
+    <div class="news-content">
+        <h1>Traffic News</h1>
+        <br>
+        <div class="contents">
+            <div class="textx">
+            <h1>Rabu, 6 September 2023 13:15 WIB</h1>
+            <h2>Kecelakaan di Tol, Menyebabkan Arus Lalu Lintas Menjadi Macet</h2>
+            <br>
+            <img src="https://droneforbeginners.com/wp-content/uploads/2021/12/gps-or-google-maps-768x512.jpeg" alt="Card Image" class="card-images">
+            <br>
+            <h3> Pagi ini, sebuah kecelakaan serius terjadi di jalan tol utama kota, menyebabkan arus lalu lintas menjadi macet parah. Insiden ini terjadi di kilometer 20 tol tersebut, dan melibatkan beberapa kendaraan, termasuk truk besar dan beberapa mobil penumpang.</h3>
+            <br>
+            <h3>Kecelakaan ini tampaknya disebabkan oleh cuaca buruk dan jarak pandang yang terbatas karena kabut tebal. Seorang saksi mata yang berada di tempat kejadian mengatakan bahwa beberapa kendaraan kehilangan kendali dan menabrak kendaraan lain, menciptakan tumpukan kendaraan yang melibatkan beberapa mobil dan truk.
+            </h3>
+            <br>
+            <h3>Petugas kepolisian dan tim penyelamat segera tiba di lokasi untuk memberikan pertolongan kepada korban dan membersihkan puing-puing yang berserakan di jalan tol. Lalu lintas di kedua arah segera ditutup untuk memberikan ruang bagi tim penyelamat dan kendaraan darurat.</h3>
+            <br>
+            <h3>Beberapa korban luka segera dilarikan ke rumah sakit terdekat untuk perawatan medis. Sayangnya, ada beberapa korban yang dilaporkan mengalami luka serius, sementara yang lainnya mengalami luka ringan.</h3>
+            <br>
+            <h3>  Sementara petugas berusaha membersihkan puing-puing dan merapikan jalan tol, arus lalu lintas tetap macet dalam jarak yang cukup jauh dari lokasi kecelakaan. Kendaraan-kendaraan terpaksa berhenti atau bergerak sangat lambat, menciptakan kemacetan panjang.
+            </h3>
+            <br>
+            <h3>
+                Para otoritas saat ini sedang menyelidiki penyebab pasti kecelakaan ini, dan pengguna jalan tol diminta untuk berhati-hati dan mematuhi aturan lalu lintas. Selama investigasi berlangsung, diperkirakan bahwa lalu lintas akan tetap terpengaruh, dan mungkin diperlukan waktu beberapa jam sebelum situasi kembali normal.</h3>
+            <br>
+        </div>
+    </div>
+    <br><br><br><br>
+    <div class="footer-report">
+        <p>Email: helloflow@gmail.com</p>
+        <p>Gedung Jakarta Plaza, Lantai 4</p>
+        <p>Kawasan Bisnis Jakarta Selatan</p>
+        <p>Jakarta, Indonesia</p>
+        <img src="facebook.png" class="icon"></a>
+        <img src="instagram.png" class="icon"></a>
+        <img src="telegram.png" class="icon"></a>
+        <img src="twitter.png" class="icon"></a>
+        <img src="whatsapp.png" class="icon"></a>
+        <p>Terms of use</a> | <a>Privacy Environmental Policy</a></p>
+        <p>©2023 Traffic Flow. All Right Reserved.</p>
+    </div>
+</section>
+</body>
+</html>

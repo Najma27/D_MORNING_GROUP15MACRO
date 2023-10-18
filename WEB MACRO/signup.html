@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+</style>
+<body>
+    <div class="background-image"></div>
+    <div class="popup">
+        <div class="pw">
+            <form action="signup.html" method="post">
+                <h2>Daftar</h2>
+                <br>
+                <div class="form-group">
+                    <label for="fullname">Nama Lengkap:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="password">Kata Sandi:</label>
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                </div>
+    
+                <button type="submit">Daftar</button>
+            </form>
+    
+            <p class="back-to-login">
+                Sudah punya akun? <a href="login.html">Masuk di sini</a>
+            </p>
+    </div>
+
+    <script>
+        function resetPassword() {
+            const emailAddress = document.getElementById("email").value;
+            alert("Instruksi untuk mereset password telah dikirim ke " + emailAddress);
+        }
+    </script>
+</body>
+</html>
+

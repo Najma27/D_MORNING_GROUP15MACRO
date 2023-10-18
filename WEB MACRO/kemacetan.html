@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Traffic Flow</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo-container">
+            <img src="map.png" alt="Image" class="logo-image">
+            <a href="#" class="logo">TRAFFIC FLOW</a>
+        </div>
+        <nav class="navbar">
+            <a href="home.html" class="nav-link">Home</a>
+            <a href="map.html" class="nav-link">Map</a>
+            <a href="report.html" class="nav-link">Report</a>
+            <a href="news.html" class="nav-link">News</a>
+        </nav>
+    </header>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const navbarLinks = document.querySelectorAll(".nav-link");
+
+            navbarLinks.forEach(function (link) {
+                if (link.href === window.location.href) {
+                    link.classList.add("active");
+                }
+            });
+        });
+    </script>
+
+<section class="news" id="news">
+    <div class="news-content">
+        <h1>Traffic News</h1>
+        <br>
+        <div class="contents">
+            <div class="textx">
+            <h1>Senin, 4 September 2023 08:00 WIB</h1>
+            <h2>Kemacetan Parah di Jalan Utama Kota, Pengendara Terjebak dalam Lalu Lintas yang Padat</h2>
+            <br>
+            <img src="kemacetan.jpg" alt="Card Image" class="card-images">
+            <br>
+            <h3>Kota Jakarta Barat, 4 September 2023 - Kemacetan parah melanda jalan utama Kota Jakarta hari ini, menyebabkan ratusan pengendara terjebak dalam lalu lintas yang padat. Kondisi lalu lintas yang memburuk ini telah menimbulkan frustrasi di antara penduduk kota yang mencoba mencapai tujuan mereka.</h3>
+            <br>
+            <h3>Kemacetan tersebut pertama kali terjadi sekitar pukul 08.00 pagi, ketika arus lalu lintas pagi mulai meningkat. Penyebab pasti kemacetan ini masih dalam penyelidikan, tetapi beberapa saksi mata melaporkan bahwa kecelakaan kecil dan pekerjaan konstruksi jalan sedang berlangsung di sekitar wilayah tersebut, yang dapat menjadi faktor penyebab kemacetan.
+            </h3>
+            <br>
+            <h3>Pengendara yang terjebak dalam lalu lintas yang padat melaporkan bahwa mereka telah terperangkap di dalam kendaraan mereka selama berjam-jam. Banyak dari mereka mulai merasa kelelahan dan frustrasi karena keterlambatan yang tidak terduga dalam perjalanan mereka. Beberapa warga bahkan terpaksa mengubah rencana mereka dan mencari rute alternatif untuk menghindari jalan utama yang padat ini.</h3>
+            <br>
+            <h3>Pihak berwenang setempat telah dikerahkan untuk mengatasi situasi tersebut. Polisi lalu lintas berusaha mengarahkan lalu lintas dan mencoba menjaga agar lalu lintas tetap bergerak. Tim pemadam kebakaran dan layanan darurat juga siaga di sekitar wilayah tersebut untuk mengatasi keadaan darurat yang mungkin terjadi.</h3>
+            <br>
+            <h3>Kami mengimbau para pengendara dan penduduk yang merencanakan perjalanan mereka hari ini untuk bersabar dan mempertimbangkan alternatif lain dalam perjalanan mereka. Selain itu, penting bagi semua pengemudi untuk mengikuti petunjuk polisi dan petugas lalu lintas yang bekerja keras untuk mengatasi kemacetan ini.</h3>
+            <br>
+            <h3>
+                Pihak berwenang kota juga sedang berkoordinasi dengan departemen terkait untuk memastikan bahwa pekerjaan konstruksi jalan dan perbaikan lalu lintas selesai secepat mungkin, sehingga kemacetan semacam ini dapat dihindari di masa depan. Kemacetan parah ini telah menjadi peringatan penting tentang perlunya perencanaan lalu lintas yang lebih baik dan pengelolaan keadaan darurat di kota Jakarta. Semoga situasi dapat segera pulih dan lalu lintas dapat kembali normal dalam waktu dekat.</h3>
+            <br>
+        </div>
+    </div>
+    <br><br><br><br>
+    <div class="footer-report">
+        <p>Email: helloflow@gmail.com</p>
+        <p>Gedung Jakarta Plaza, Lantai 4</p>
+        <p>Kawasan Bisnis Jakarta Selatan</p>
+        <p>Jakarta, Indonesia</p>
+        <img src="facebook.png" class="icon"></a>
+        <img src="instagram.png" class="icon"></a>
+        <img src="telegram.png" class="icon"></a>
+        <img src="twitter.png" class="icon"></a>
+        <img src="whatsapp.png" class="icon"></a>
+        <p>Terms of use</a> | <a>Privacy Environmental Policy</a></p>
+        <p>©2023 Traffic Flow. All Right Reserved.</p>
+    </div>
+</section>
+</body>
+</html>

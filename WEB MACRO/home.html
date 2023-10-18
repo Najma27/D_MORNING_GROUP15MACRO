@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+    <title>Traffic Flow</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo-container">
+            <img src="map.png" alt="Image" class="logo-image">
+            <a href="#" class="logo">TRAFFIC FLOW</a>
+        </div>
+        <nav class="navbar">
+            <a href="home.html" class="nav-link">Home</a>
+            <a href="map.html" class="nav-link">Maps</a>
+            <a href="report.html" class="nav-link">Report</a>
+            <a href="news.html" class="nav-link">News</a>
+        </nav>
+    </header>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const navbarLinks = document.querySelectorAll(".nav-link");
+
+            navbarLinks.forEach(function (link) {
+                if (link.href === window.location.href) {
+                    link.classList.add("active");
+                }
+            });
+        });
+    </script>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <div class="profile-container">
+                <img src="profile.png" alt="Profil Image" class="profile-image">
+                <h1>Welcome to Traffic Flow, Fulan</h1>
+            </div>
+        <br>
+        <img src="pic2_home_fix-removebg-preview.png" alt="Image" class="side-image">
+        <h2>Find the best route for your trip</h2>
+        <h3>News Flow</h3>
+
+        <div class="box">
+            <div class="card">
+                <div class="content">
+                    <img src="https://asset.kompas.com/crops/3QRlVc76f_AI7g-oXEq2CyZO7qI=/0x0:0x0/1200x800/data/photo/2023/09/14/650274934fa4a.jpg" alt="Card Image" class="card-image">
+                    <br>
+                    <h4>Ada Demo Buruh, Warga Diimbau Hindari Kawasan Patung Kuda "Kami siapkan"</h4>
+                    <br>
+                    <h5>"Kami siapkan rekayasa lalu lintas yang mengarah ke titik demo. Sifatnya tetap situasional, namun diharapkan menghindari jalur tersebut," Ucap Kabid Humas Polda Metro Jaya Kombes Trunoyodo Wisnu Andiko dalam keterangan, Senin.</h5>
+                    <p>Baca selengkapnya >></p>
+                </div>
+            </div>
+            
+            <div class="box">
+                <div class="card">
+                    <div class="content">
+                        <img src="https://asset.kompas.com/crops/xySET9SHirDF4M4I0YX8N0MTkFE=/0x0:0x0/1200x800/data/photo/2023/10/01/6519549917e38.jpg" alt="Card-Image"
+                        class="card-image">
+                        <br>
+                        <h4>Jalan Merdeka Utara Ditutup Imbas Acara Istana Berbatik, Lalu lintas Padat Merayap</h4>
+                        <br>
+                        <h5>"Adanya istana Berbatik ini diharapkan menjadi bukti keberpihakan pemerintah pada perajin batik terutama UMKM ekonomi kreatif (ekraf). Event itu juga sebagai ajang promosi ke dunia untuk meningkatkan konsumsi batik baik di dalam maupun luar negeri."</h5>
+                        <p>Baca selengkapnya >></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="firsthome">
+            <h1>Maps Flow</h1>
+            <br>
+            <img src="0zrc20ow-removebg-preview.png" alt="Image" class="side-image">
+            <h2>Cari rute tebaik dalam perjalanan anda</h2>
+            <button class="cta-button">Coba Sekarang</button>
+        </div>
+        <br><br><br><br><br><br><br><br><br>
+        <div class="firsthome">
+            <h1>Report Flow</h1>
+            <br>
+            <img src="todvej3o-removebg-preview.png" alt="Image" class="edit-image">
+            <h2>Laporkan kerusakan dan hambatan perjalanan anda</h2>
+            <button class="cta-button">Coba Sekarang</button>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="footer">
+            <p>Email: helloflow@gmail.com</p>
+            <p>Gedung Jakarta Plaza, Lantai 4</p>
+            <p>Kawasan Bisnis Jakarta Selatan</p>
+            <p>Jakarta, Indonesia</p>
+            <img src="facebook.png" class="icon"></a>
+            <img src="instagram.png" class="icon"></a>
+            <img src="telegram.png" class="icon"></a>
+            <img src="twitter.png" class="icon"></a>
+            <img src="whatsapp.png" class="icon"></a>
+            <p>Terms of use</a> | <a>Privacy Environmental Policy</a></p>
+            <p>©2023 Traffic Flow. All Right Reserved.</p>
+        </div>
+    </section>
+</body>
+</html>

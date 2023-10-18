@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Traffic Flow</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo-container">
+            <img src="map.png" alt="Image" class="logo-image">
+            <a href="#" class="logo">TRAFFIC FLOW</a>
+        </div>
+        <nav class="navbar">
+            <a href="home.html" class="nav-link">Home</a>
+            <a href="map.html" class="nav-link">Map</a>
+            <a href="report.html" class="nav-link">Report</a>
+            <a href="news.html" class="nav-link">News</a>
+        </nav>
+    </header>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const navbarLinks = document.querySelectorAll(".nav-link");
+
+            navbarLinks.forEach(function (link) {
+                if (link.href === window.location.href) {
+                    link.classList.add("active");
+                }
+            });
+        });
+    </script>
+
+<section class="news" id="news">
+    <div class="news-content">
+        <h1>Traffic News</h1>
+        <br>
+        <div class="contents">
+            <div class="textx">
+            <h1>Selasa, 5 September 2023 09:30 WIB</h1>
+            <h2>Kerusakan Parah Jalan Raya A5, Pengendara Disarankan Rute Alternatif</h2>
+            <br>
+            <img src="https://droneforbeginners.com/wp-content/uploads/2021/12/gps-or-google-maps-768x512.jpeg" alt="Card Image" class="card-images">
+            <br>
+            <h3>Jalan Raya A5, salah satu jalan utama yang menghubungkan Tanjung Pinang Timur dan Tanjung Pinang Barat, mengalami kerusakan parah akibat hujan deras yang terjadi pada Senin malam. Beberapa bagian jalan retak dan berlubang, sehingga membahayakan pengendara sepeda motor dan mobil. Selain itu, ada juga longsor yang menutupi sebagian jalan di dekat perbatasan kedua kota.</h3>
+            <br>
+            <h3>Akibat kerusakan ini, arus lalu lintas di Jalan Raya A5 menjadi sangat padat. Banyak pengendara yang terjebak macet selama berjam-jam, terutama di pagi dan sore hari. Beberapa pengendara mengeluhkan kondisi jalan yang buruk dan meminta pemerintah segera memperbaikinya.
+            </h3>
+            <br>
+            <h3>Otoritas lalu lintas setempat telah mengambil langkah-langkah untuk mengatasi situasi ini. Mereka telah menempatkan petugas di beberapa titik strategis untuk mengatur lalu lintas dan menghindari kecelakaan. Mereka juga telah menyiapkan rambu-rambu dan spanduk untuk memberi tahu pengendara tentang kerusakan jalan dan rute alternatif yang bisa mereka gunakan.</h3>
+            <br>
+            <h3>Salah satu rute alternatif yang disarankan oleh otoritas lalu lintas adalah Jalan Raya B1, yang melintasi kawasan industri dan perumahan. Jalan ini lebih lebar dan lebih mulus daripada Jalan Raya A5, tetapi juga lebih panjang dan lebih ramai. Pengendara yang menggunakan rute ini harus berhati-hati karena ada banyak truk besar dan kendaraan lain yang melaju dengan cepat.</h3>
+            <br>
+            <h3>Rute alternatif lain yang bisa dipilih oleh pengendara adalah Jalan Raya C1, yang melewati kawasan pedesaan dan hutan. Jalan ini lebih pendek dan lebih sepi daripada Jalan Raya A5, tetapi juga lebih sempit dan berliku-liku. Pengendara yang menggunakan rute ini harus waspada karena ada banyak binatang liar dan tanaman rimbun yang bisa mengganggu pandangan.</h3>
+            <br>
+            <h3>
+                Sementara itu, pemerintah daerah telah mengumumkan bahwa mereka akan segera melakukan perbaikan Jalan Raya A5. Mereka telah mengalokasikan dana sebesar Rp 10 miliar untuk proyek ini, yang diharapkan bisa selesai dalam waktu tiga bulan. Mereka juga meminta maaf kepada masyarakat atas ketidaknyamanan yang ditimbulkan oleh kerusakan jalan ini.</h3>
+            <br>
+        </div>
+    </div>
+    <br><br><br><br>
+    <div class="footer-report">
+        <p>Email: helloflow@gmail.com</p>
+        <p>Gedung Jakarta Plaza, Lantai 4</p>
+        <p>Kawasan Bisnis Jakarta Selatan</p>
+        <p>Jakarta, Indonesia</p>
+        <img src="facebook.png" class="icon"></a>
+        <img src="instagram.png" class="icon"></a>
+        <img src="telegram.png" class="icon"></a>
+        <img src="twitter.png" class="icon"></a>
+        <img src="whatsapp.png" class="icon"></a>
+        <p>Terms of use</a> | <a>Privacy Environmental Policy</a></p>
+        <p>©2023 Traffic Flow. All Right Reserved.</p>
+    </div>
+</section>
+</body>
+</html>

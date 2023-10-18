@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Traffic Flow</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo-container">
+            <img src="map.png" alt="Image" class="logo-image">
+            <a href="#" class="logo">TRAFFIC FLOW</a>
+        </div>
+        <nav class="navbar">
+            <a href="home.html" class="nav-link">Home</a>
+            <a href="map.html" class="nav-link">Map</a>
+            <a href="report.html" class="nav-link">Report</a>
+            <a href="news.html" class="nav-link">News</a>
+        </nav>
+    </header>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const navbarLinks = document.querySelectorAll(".nav-link");
+
+            navbarLinks.forEach(function (link) {
+                if (link.href === window.location.href) {
+                    link.classList.add("active");
+                }
+            });
+        });
+    </script>
+
+<section class="news" id="news">
+    <div class="news-content">
+        <h1>Traffic News</h1>
+        <br>
+        <div class="contents">
+            <div class="textx">
+            <h1>Kamis, 7 September 2023 10:00 WIB</h1>
+            <h2>Sistem Navigasi Terbaru untuk Hindari Kemacetan</h2>
+            <br>
+            <img src="https://droneforbeginners.com/wp-content/uploads/2021/12/gps-or-google-maps-768x512.jpeg" alt="Card Image" class="card-images">
+            <br>
+            <h3>Pengemudi di seluruh dunia akan mendapatkan bantuan yang signifikan dalam menghindari kemacetan lalu lintas, berkat sistem navigasi terbaru yang akan segera diluncurkan. Teknologi terbaru ini diharapkan dapat membantu mengurangi waktu yang dihabiskan dalam kemacetan dan meminimalkan stres di jalan.</h3>
+            <br>
+            <h3>Sistem navigasi terbaru ini didukung oleh kecerdasan buatan dan machine learning yang canggih. Dengan menggunakan data lalu lintas real-time, perangkat ini mampu memberikan rekomendasi rute terbaik untuk menghindari kemacetan, kecelakaan, atau pekerjaan konstruksi di jalan.
+            </h3>
+            <br>
+            <h3>Salah satu fitur unggulan dari sistem ini adalah kemampuannya untuk secara otomatis mengganti rencana perjalanan jika terjadi perubahan dalam kondisi lalu lintas. Ini berarti jika ada kejadian tak terduga, sistem akan menyesuaikan rute Anda secara langsung untuk menghindari masalah tersebut.</h3>
+            <br>
+            <h3>Sistem navigasi ini juga akan memberikan rekomendasi alternatif, seperti menggunakan transportasi umum atau bahkan berjalan kaki jika itu adalah pilihan yang lebih efisien dalam menghindari kemacetan. Ini merupakan langkah progresif dalam mendukung mobilitas berkelanjutan.</h3>
+            <br>
+            <h3>Pengembang sistem ini juga fokus pada kenyamanan pengguna dengan antarmuka yang ramah pengguna dan suara panduan yang lebih informatif. Ini akan membantu pengemudi tetap fokus pada jalan dan mengurangi gangguan saat mengemudi.
+            </h3>
+            <br>
+            <h3>
+                Sistem navigasi terbaru ini diharapkan akan membawa perubahan positif dalam pengalaman berkendara dan membantu mengurangi tekanan pada infrastruktur lalu lintas. Pengenalan teknologi ini dapat memicu revolusi dalam mobilitas perkotaan dan membantu menciptakan perjalanan yang lebih lancar bagi semua orang.</h3>
+            <br>
+        </div>
+    </div>
+    <br><br><br><br>
+    <div class="footer-report">
+        <p>Email: helloflow@gmail.com</p>
+        <p>Gedung Jakarta Plaza, Lantai 4</p>
+        <p>Kawasan Bisnis Jakarta Selatan</p>
+        <p>Jakarta, Indonesia</p>
+        <img src="facebook.png" class="icon"></a>
+        <img src="instagram.png" class="icon"></a>
+        <img src="telegram.png" class="icon"></a>
+        <img src="twitter.png" class="icon"></a>
+        <img src="whatsapp.png" class="icon"></a>
+        <p>Terms of use</a> | <a>Privacy Environmental Policy</a></p>
+        <p>©2023 Traffic Flow. All Right Reserved.</p>
+    </div>
+</section>
+</body>
+</html>

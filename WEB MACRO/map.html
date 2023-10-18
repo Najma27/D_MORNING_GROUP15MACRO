@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Traffic Flow</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo-container">
+            <img src="map.png" alt="Image" class="logo-image">
+            <a href="#" class="logo">TRAFFIC FLOW</a>
+        </div>
+        <nav class="navbar">
+            <a href="home.html" class="nav-link">Home</a>
+            <a href="map.html" class="nav-link">Maps</a>
+            <a href="report.html" class="nav-link">Report</a>
+            <a href="news.html" class="nav-link">News</a>
+        </nav>
+    </header>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const navbarLinks = document.querySelectorAll(".nav-link");
+
+            navbarLinks.forEach(function (link) {
+                if (link.href === window.location.href) {
+                    link.classList.add("active");
+                }
+            });
+        });
+    </script>
+
+    <section class="map" id="map">
+        <div class="map-content">
+            <h2>Maps</h2>
+            <h1>Selamat menelusuri perjalanan Anda dengan lebih lancar dan nyaman bersama Traffic Flow !</h1>
+        </div>
+        <br>
+        <div class="newslatter">
+            <div class="logo-container">
+                <img src="location-pin.png" alt="Image" class="maps-image">
+                <form>
+                    <input type="lokasi" name="lokasi" id="lokasi" placeholder="Jakarta Timur"> 
+                </form>
+            </div>
+            <br>
+            <div class="logo-container">
+                <img src="location-pin.png" alt="Image" class="maps-image">
+                <form>
+                    <input type="lokasi" name="lokasi" id="lokasi" placeholder="Jakarta Barat"> 
+                </form>
+            </div>
+            <div class="container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126912.62879063682!2d106.82261803736702!3d-6.261141676194707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f2d148fbe713%3A0x6e667d52ebedf5a9!2sJakarta%20Timur%2C%20Kota%20Jakarta%20Timur%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1697009242203!5m2!1sid!2sid" width="1100" height="800" style="border-radius: 30px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>    
+        </div>  
+  
+        <div class="cardmaps">
+                <img src="07-Jakarta-Timur.jpg" alt="Card Image" class="card-imagemaps">
+                    <div class="text">
+                        <h4>Jakarta Timur, Indonesia</h4>
+                        <h5>Titik Kemacetan</h5>
+                        <p>5 Titik Macet</p>
+                        <h5>Jalan Rusak</h5>
+                        <p>10 Jalan Rusak</p>
+                        <h5>Jalan Alternatif</h5>
+                        <ul>
+                            <li>1. Jalan Gajah Mada</li>
+                            <li>2. Jalan Hayam Wuruk</li>
+                            <li>3. Jalan Puri Indah</li>
+                            <li>4. Jalan Tanjung Duren Raya</li>
+                            <li>5. Jalan Slipi</li>
+                            <li>6. Jalan Daan Mogot</li>
+                            <li>7. Jalan S. Parman</li>
+                            <li>8. Jalan Letjen S. Parman</li>
+                        </ul>
+                    </div>
+        </div>
+        <br><br><br><br><br><br><br><br>
+        <div class="footer-map">
+            <p>Email: helloflow@gmail.com</p>
+            <p>Gedung Jakarta Plaza, Lantai 4</p>
+            <p>Kawasan Bisnis Jakarta Selatan</p>
+            <p>Jakarta, Indonesia</p>
+            <img src="facebook.png" class="icon"></a>
+            <img src="instagram.png" class="icon"></a>
+            <img src="telegram.png" class="icon"></a>
+            <img src="twitter.png" class="icon"></a>
+            <img src="whatsapp.png" class="icon"></a>
+            <p>Terms of use</a> | <a>Privacy Environmental Policy</a></p>
+            <p>©2023 Traffic Flow. All Right Reserved.</p>
+        </div>
+    </section>
+
+</body>
+</html>
